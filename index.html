@@ -5,64 +5,135 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sanal Öğretmen - Gizlilik Politikası</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 40px; 
+      line-height: 1.6; 
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
     h1 { color: #333; }
+    h2 { color: #555; margin-top: 30px; }
+    h3 { color: #666; margin-top: 20px; }
+    ul { margin: 10px 0; }
+    li { margin: 5px 0; }
+    strong { color: #333; }
   </style>
 </head>
 <body>
+
 <h1>Sanal Öğretmen - Gizlilik Politikası</h1>
+
 <p><strong>Güncelleme Tarihi:</strong> 07.12.2025</p>
+
 <p><strong>Uygulama Sahibi:</strong> Canberk AKGÖZ</p>
+
 <p><strong>Uygulama Adı:</strong> Sanal Öğretmen</p>
+
+<p><strong>İletişim:</strong> canberkakgoz@gmail.com</p>
 
 <p>Sanal Öğretmen uygulaması, kullanıcıların öğrenme deneyimlerini geliştirmek amacıyla hazırlanmış bir eğitim platformudur. Bu gizlilik politikası, uygulamanın hangi bilgileri topladığını, nasıl kullandığını ve kullanıcıların haklarını açıklamaktadır.</p>
 
 <h2>1. Toplanan Bilgiler</h2>
+
 <h3>1.1. Gönüllü Olarak Verilen Bilgiler</h3>
+
 <ul>
-  <li>E-posta adresi (kayıt ve giriş için)</li>
-  <li>Profil bilgileri (ad, sınıf seviyesi vb.)</li>
+  <li><strong>E-posta adresi:</strong> Kayıt ve giriş işlemleri için kullanılır</li>
+  <li><strong>Profil bilgileri:</strong> Ad, soyad, görünen ad, sınıf seviyesi, okul bilgisi</li>
+  <li><strong>Profil fotoğrafı:</strong> Kullanıcı tarafından isteğe bağlı olarak yüklenebilir</li>
 </ul>
 
 <h3>1.2. Otomatik Olarak Toplanan Bilgiler</h3>
+
 <ul>
-  <li>Cihaz tanımlayıcıları (anonim)</li>
-  <li>Kullanım istatistikleri (Firebase Analytics veya benzeri)</li>
+  <li><strong>Kullanım istatistikleri:</strong> Toplam puan, çözülen soru sayısı, doğru/yanlış cevap sayıları, seviye ve deneyim puanları</li>
+  <li><strong>Çözülen sorular:</strong> Soru metni, seçenekler, doğru cevap, kullanıcının verdiği cevap, ders ve konu bilgisi, çözülme tarihi</li>
+  <li><strong>Tamamlanan konular:</strong> Ders, konu, sınıf seviyesi, toplam soru sayısı, başarı oranı</li>
+  <li><strong>Hedefler:</strong> Kullanıcının belirlediği günlük, haftalık veya aylık hedefler</li>
+  <li><strong>Son aktiviteler:</strong> Kullanıcının son çözdüğü sorular</li>
+  <li><strong>Cihaz tanımlayıcıları:</strong> Reklam gösterimi için anonim cihaz bilgileri (Google AdMob tarafından)</li>
 </ul>
-<p>Bu bilgiler kimlik tespiti için kullanılmaz ve üçüncü taraflarla paylaşılmaz.</p>
+
+<p>Bu bilgiler kimlik tespiti için kullanılmaz ve üçüncü taraflarla paylaşılmaz (reklam servisleri hariç, aşağıda belirtilmiştir).</p>
 
 <h2>2. Bilgilerin Kullanım Amaçları</h2>
+
 <ul>
-  <li>Kullanıcı hesabını yönetmek</li>
-  <li>Eğitim içeriklerini kişiselleştirmek</li>
+  <li>Kullanıcı hesabını yönetmek ve kimlik doğrulama sağlamak</li>
+  <li>Eğitim içeriklerini kişiselleştirmek ve kullanıcının ilerlemesini takip etmek</li>
   <li>Uygulamanın performansını ve güvenliğini artırmak</li>
-  <li>Reklam gösterimlerini doğrulamak (AdMob)</li>
+  <li>Kullanıcı deneyimini iyileştirmek ve hizmet kalitesini artırmak</li>
+  <li>Reklam gösterimlerini doğrulamak ve reklam içeriğini optimize etmek (Google AdMob)</li>
+  <li>Kullanıcıya ilerleme raporları ve istatistikler sunmak</li>
 </ul>
 
 <h2>3. Üçüncü Taraf Hizmetleri</h2>
-<p>Uygulama aşağıdaki hizmetleri kullanabilir:</p>
+
+<p>Uygulama aşağıdaki hizmetleri kullanmaktadır:</p>
+
 <ul>
-  <li>Google AdMob</li>
-  <li>Firebase Authentication</li>
-  <li>Firebase Analytics</li>
+  <li><strong>Supabase:</strong> Kullanıcı kimlik doğrulama, veritabanı ve veri saklama hizmetleri. Veriler Supabase'in güvenli sunucularında saklanmaktadır.</li>
+  <li><strong>Google AdMob:</strong> Reklam gösterimi için kullanılır. AdMob, reklam gösterimi için cihaz tanımlayıcıları ve kullanım verilerini toplayabilir. Google'ın gizlilik politikası: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+  <li><strong>Google OAuth:</strong> Google hesabı ile giriş yapma özelliği için kullanılır. Google'ın gizlilik politikası: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+  <li><strong>Apple Sign-In:</strong> Apple ID ile giriş yapma özelliği (iOS cihazlarda). Apple'ın gizlilik politikası: <a href="https://www.apple.com/privacy/" target="_blank">https://www.apple.com/privacy/</a></li>
 </ul>
 
 <h2>4. Verilerin Saklanması ve Güvenlik</h2>
-<p>Kullanıcı verileri yalnızca güvenli sunucularda saklanır.</p>
 
-<h2>5. Kullanıcı Hakları</h2>
 <ul>
-  <li>Verilerini görüntüleme</li>
-  <li>Verilerini silme</li>
-  <li>Verilerin kullanımını kısıtlama</li>
+  <li>Kullanıcı verileri Supabase'in güvenli sunucularında şifrelenmiş olarak saklanmaktadır</li>
+  <li>Veritabanı erişimi Row Level Security (RLS) ile korunmaktadır - kullanıcılar yalnızca kendi verilerine erişebilir</li>
+  <li>Tüm veri aktarımları HTTPS protokolü ile şifrelenmiş bağlantılar üzerinden gerçekleştirilir</li>
+  <li>Kullanıcı şifreleri güvenli hash algoritmaları ile saklanır ve hiçbir zaman düz metin olarak görüntülenemez</li>
 </ul>
-<p>İletişim: <strong>canberkakgoz@gmail.com</strong></p>
 
-<h2>6. Çocukların Gizliliği</h2>
-<p>Uygulama 7 yaş ve üzeri kullanıcılar için tasarlanmıştır.</p>
+<h2>5. Veri Saklama Süresi</h2>
 
-<h2>7. Güncellemeler</h2>
-<p>Bu politika güncellenebilir. Değişiklikler bu sayfada yayınlanır.</p>
+<p>Kullanıcı verileri, hesap aktif olduğu sürece saklanır. Kullanıcı hesabını sildiğinde, tüm kişisel veriler 30 gün içinde kalıcı olarak silinir. Yasal yükümlülükler gerektirdiği durumlarda, bazı veriler daha uzun süre saklanabilir.</p>
+
+<h2>6. Kullanıcı Hakları (KVKK ve GDPR Uyumluluğu)</h2>
+
+<p>Kullanıcılarımız aşağıdaki haklara sahiptir:</p>
+
+<ul>
+  <li><strong>Bilgi Edinme Hakkı:</strong> Hangi kişisel verilerinizin işlendiğini öğrenme</li>
+  <li><strong>Erişim Hakkı:</strong> Kişisel verilerinize erişme ve kopyasını alma</li>
+  <li><strong>Düzeltme Hakkı:</strong> Yanlış veya eksik verilerinizin düzeltilmesini isteme</li>
+  <li><strong>Silme Hakkı:</strong> Kişisel verilerinizin silinmesini isteme</li>
+  <li><strong>İtiraz Hakkı:</strong> Kişisel verilerinizin işlenmesine itiraz etme</li>
+  <li><strong>Veri Taşınabilirliği Hakkı:</strong> Verilerinizi başka bir hizmete aktarma</li>
+</ul>
+
+<p>Bu haklarınızı kullanmak için <strong>canberkakgoz@gmail.com</strong> adresine e-posta gönderebilirsiniz. Talebiniz en geç 30 gün içinde yanıtlanacaktır.</p>
+
+<h2>7. Çocukların Gizliliği</h2>
+
+<p>Uygulama 7 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaş altı çocuklar için ebeveyn onayı gereklidir. Çocukların kişisel bilgilerini bilinçli olarak toplamıyoruz. Eğer 13 yaş altı bir çocuğun bilgilerini topladığımızı fark edersek, bu bilgileri derhal sileriz.</p>
+
+<p>Ebeveynler, çocuklarının verilerini görüntüleme, düzeltme veya silme talebinde bulunabilir. Bu talepler için <strong>canberkakgoz@gmail.com</strong> adresine başvurabilirsiniz.</p>
+
+<h2>8. Veri Transferi</h2>
+
+<p>Verileriniz Supabase sunucularında saklanmaktadır. Supabase, verilerinizi Avrupa Birliği ve diğer ülkelerdeki veri merkezlerinde saklayabilir. Veri transferleri, yürürlükteki veri koruma yasalarına uygun olarak gerçekleştirilir.</p>
+
+<h2>9. Çerezler ve Benzeri Teknolojiler</h2>
+
+<p>Uygulama, kullanıcı tercihlerini cihazda saklamak için yerel depolama teknolojileri (SharedPreferences, Hive) kullanır. Bu veriler yalnızca cihazda saklanır ve üçüncü taraflarla paylaşılmaz.</p>
+
+<h2>10. Güncellemeler</h2>
+
+<p>Bu gizlilik politikası güncellenebilir. Önemli değişiklikler yapıldığında, kullanıcılar uygulama içinde veya e-posta yoluyla bilgilendirilecektir. Güncelleme tarihi sayfanın üst kısmında belirtilmiştir.</p>
+
+<h2>11. İletişim</h2>
+
+<p>Gizlilik politikası ile ilgili sorularınız veya endişeleriniz için lütfen bizimle iletişime geçin:</p>
+
+<p><strong>E-posta:</strong> canberkakgoz@gmail.com</p>
+
+<p><strong>Son Güncelleme:</strong> 07.12.2025</p>
 
 </body>
 </html>
+
